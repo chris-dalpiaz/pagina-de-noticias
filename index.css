@@ -1,0 +1,48 @@
+.repetenews {
+    display: flex;
+    background: black;
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+.cabecalho {
+    display: flex;
+    background: gray;
+    flex-direction: row;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.modos {
+    display: flex;
+    gap: 10px;
+}
+
+.body {
+    display: flex;
+    background: lightgray;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.noticia1 {
+    display: flex;
+    background-color: aquamarine;
+    height: 300px;
+    width: 300px;
+}
+
+.noticia2 {
+    display: flex;
+    background-color: rgb(90, 199, 163);
+    height: 300px;
+    width: 300px;
+}
