@@ -1,6 +1,6 @@
 .repetenews {
     display: flex;
-    background: black;
+    background: #283618;
     flex-direction: row;
     height: 50px;
     justify-content: space-between;
@@ -12,7 +12,7 @@
 
 .cabecalho {
     display: flex;
-    background: gray;
+    background: #606C38;
     flex-direction: row;
     height: 30px;
     justify-content: space-between;
@@ -26,9 +26,9 @@
     gap: 10px;
 }
 
-.body {
+.principais {
     display: flex;
-    background: lightgray;
+    background: #FEFAE0;
     flex-direction: row;
     justify-content: center;
     padding-left: 20px;
@@ -38,16 +38,30 @@
 
 .noticia1 {
     display: flex;
-    background-color: aquamarine;
-    height: 300px;
-    width: 300px;
+    background-color: #DDA15E;
+    height: 700px;
+    width: 700px;
     justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .noticia2 {
     display: flex;
-    background-color: rgb(90, 199, 163);
-    height: 300px;
-    width: 300px;
+    background-color: #BC6C25;
+    height: 700px;
+    width: 700px;
     justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.imagens {
+    border-radius: 50%;
+    height: 250px;
+    width:350px;
 }
