@@ -25,12 +25,7 @@
     background-color: #283618;
 }
 
-.cobra,
-.baleia,
-.marios,
-.links,
-.finals,
-.crashs {
+.noticia {
     display: flex;
     flex-direction: column;
     background-color: #9eb36f;
